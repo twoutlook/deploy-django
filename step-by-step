@@ -1,0 +1,18 @@
+
+https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-apache-and-mod_wsgi-on-ubuntu-14-04
+
+https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04
+1. apply a server from hicloud, m47
+create an user django
+
+gpasswd -a demo sudo
+
+adduser demo
+gpasswd -a demo sudo
+
+
+sudo apt-get update
+sudo apt-get install python3-pip apache2 libapache2-mod-wsgi-py3
+
+
+sudo pip install virtualenv
